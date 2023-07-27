@@ -1,0 +1,67 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+.container-profile{
+    display: block;
+    width: 100%;    
+    text-align: center;
+    background-image: url(./assets/img/images.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #fff;
+    font-weight: 700;
+}
+.container-profile .container-blur{
+    background-color: rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(4px);
+    display: block;
+    width: 100%;
+    padding: 200px 32px;
+    text-align: center;
+}
+.container-profile h1{
+    font-family: 'Borel',cursive;
+    margin-bottom: 16px;
+}
+.container-profile h5{
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 16px;
+}
+.container-profile .profile-picture{
+    object-fit: cover;
+    object-position: top;
+    display: block;
+    margin: auto;
+    width: 200px;
+    height: 200px;  
+    text-align: center;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -100px;
+}
+.container{
+    max-width: 1100px;
+}
+.container-profile-education{
+    display: block;
+    width: 100%;    
+    text-align: center;
+    background-image: url(./assets/img/educacion.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #fff;
+    font-weight: 700;
+}
+.container-profile-education .container-blur-education{
+    background-color: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(6px);
+    display: block;
+    width: 100%;
+    padding: 200px 32px;
+    text-align: center;
+}
